@@ -116,6 +116,10 @@ For example, to train CycleGAN model for voice conversion between ``SF1`` and ``
 $ python train.py --train_A_dir ./data/vcc2016_training/SF1 --train_B_dir ./data/vcc2016_training/TM1 --model_dir ./model/sf1_tm1 --model_name sf1_tm1.ckpt --random_seed 0 --validation_A_dir ./data/evaluation_all/SF1 --validation_B_dir ./data/evaluation_all/TM1 --output_dir ./validation_output --tensorboard_log_dir ./log
 ```
 
+```bash
+$ python train.py --train_A_dir ./data/vcc2016_training/SF4 --train_B_dir ./data/vcc2016_training/TM4 --model_dir ./model/sf4_tm4 --model_name sf4_tm4.ckpt --random_seed 0 --validation_A_dir ./data/evaluation_all/SF4 --validation_B_dir ./data/evaluation_all/TM4 --output_dir ./validation_output --tensorboar_log_dir ./log
+```
+
 
 <p align="center">
     <img src = "./train_log/discriminator_discriminator.png" width="90%">
